@@ -1,0 +1,4 @@
+# local config
+
+domashka ALL= /bin/systemctl restart ntpd
+

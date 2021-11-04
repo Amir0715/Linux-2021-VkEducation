@@ -1,0 +1,10 @@
+#!/bin/bash
+
+adduser --system domashka || true
+groupadd domashkagroup || true
+usermod -a -G domashkagroup domashka || true
+mkdir -p /home/domashka/config /home/domashka/documents /home/domashka/pictures || true
+chown -R domashka:domashkagroup /home/domashka || true
+chmod -R 750 /home/domashka || true
+
+exit 0 

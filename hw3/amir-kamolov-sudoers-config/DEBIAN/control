@@ -1,0 +1,7 @@
+Package: amir-kamolov-sudoers-config
+Version: 0.1
+Depends: systemd, sudo
+Architecture: all
+Section: misc
+Maintainer: Amir Kamolov <kamolov.amir2000@yandex.ru>
+Description: This package add my sudoers config for sudo.
